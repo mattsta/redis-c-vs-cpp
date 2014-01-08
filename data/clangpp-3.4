@@ -1,0 +1,16 @@
+# clang++ (3.4)
+PING_INLINE: 1165501.25 requests per second
+PING_BULK: 1492537.25 requests per second
+SET: 1335113.50 requests per second
+GET: 1901140.62 requests per second
+INCR: 1466275.75 requests per second
+LPUSH: 1404494.38 requests per second
+LPOP: 1589825.12 requests per second
+SADD: 1470588.25 requests per second
+SPOP: 2044989.75 requests per second
+LPUSH (needed to benchmark LRANGE): 1412429.38 requests per second
+LRANGE_100 (first 100 elements): 59730.02 requests per second
+LRANGE_300 (first 300 elements): 17233.95 requests per second
+LRANGE_500 (first 450 elements): 11349.84 requests per second
+LRANGE_600 (first 600 elements): 8596.01 requests per second
+MSET (10 keys): 301568.16 requests per second
